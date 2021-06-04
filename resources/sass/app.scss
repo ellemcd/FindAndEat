@@ -1,0 +1,73 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import 'buttons';
+
+
+body {
+	height: 100%;
+	background: url(/img/bg.jpg) no-repeat;
+	background-size: cover;
+	background-size: 100% auto;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.wrapper {
+	padding: 30px 20px 20px 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.white-background {
+	background-color: #fff;
+	opacity: 0.95;
+}
+.restaurant-container {
+	min-height: 650px;
+}
+
+.navbar-brand {
+	font-family: $font-family-special;
+	line-height: 0.2;
+	font-size: 2.4em;
+	padding: 0;
+}
+
+.admin-panel {
+	background-color: lighten( $blue, 65% );
+	padding: 20px;
+	//color: white;
+}
+
+.toast:not(.showing):not(.show) {
+	opacity: 1;
+}
+
+.toast {
+	box-shadow: none;
+}
+
+.get-info {
+
+	p {
+		text-transform: capitalize;
+		margin-bottom: 0;
+		font-weight: 900;
+		font-size: 1em;
+	}
+}
+
+footer {
+	color: white;
+}
+
